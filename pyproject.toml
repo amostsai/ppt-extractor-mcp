@@ -1,0 +1,17 @@
+[project]
+name = "ppt-extractor-mcp"
+version = "1.0.0"
+description = "從 PowerPoint 檔案中提取文字內容並以結構化格式呈現"
+requires-python = ">=3.10, <=3.12"
+dependencies = [
+    "fastmcp",
+    "pydantic",
+    "python-pptx"
+]
+
+[project.scripts]
+ppt-extractor = "ppt_extractor_mcp.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

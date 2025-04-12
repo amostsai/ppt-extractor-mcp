@@ -1,0 +1,4 @@
+fastmcp>=0.1.0
+python-pptx>=0.6.21
+pydantic>=1.10.0
+uvicorn>=0.15.0
