@@ -40,28 +40,15 @@ python -m ppt_extractor_mcp
 - `include_notes`: 是否包含講者備註，預設為 False
 - `include_empty_slides`: 是否包含沒有文字的幻燈片，預設為 False
 
-## Docker 部署
-
-```bash
-# 建立映像檔
-docker build -t ppt-extractor-mcp .
-
-# 執行容器
-docker run -p 8000:8000 ppt-extractor-mcp
-```
 
 ## 專案結構
 ppt-extractor-mcp/
-├── examples/
-│   └── extract_ppt_example.py
 ├── src/
 │   ├── __init__.py
 │   ├── __main__.py
 │   ├── extractors.py
 │   └── server.py
 ├── .gitignore
-├── docker-compose.yml
-├── Dockerfile
 ├── example_mcp_config.json
 ├── LICENSE
 ├── pyproject.toml
