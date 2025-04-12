@@ -8,7 +8,7 @@ from typing import Optional
 from fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
-from ppt_extractor_mcp.extractors import extract_text_from_ppt, format_as_markdown, format_as_plain_text
+from extractors import extract_text_from_ppt, format_as_markdown, format_as_plain_text
 
 
 # 設置日誌

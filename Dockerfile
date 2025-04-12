@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y \
 COPY requirements.txt .
 COPY pyproject.toml .
 COPY setup.py .
-COPY ppt_extractor_mcp ./ppt_extractor_mcp
+COPY src ./ppt_extractor_mcp
 
 # 安裝 Python 依賴
 RUN pip install --no-cache-dir -e . fastmcp
