@@ -28,10 +28,10 @@ pip install -e .
 ```
 
 ## vscode mcp設定
-編輯 ~/.config/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json
-將以下內容貼到mcpServers大括號內
-根據電腦實際情形修改args路徑設定
-存檔後若設定正確可以發現左側ppt-extractor會出現綠燈（底下紅字是INFO log訊息不用管他）
+1. 編輯 ~/.config/Code/User/globalStorage/saoudrizwan.claude-dev/settings/cline_mcp_settings.json
+2. 將以下內容貼到mcpServers大括號內
+3. 根據電腦實際情形修改args路徑設定
+4. 存檔後若設定正確可以發現左側ppt-extractor會出現綠燈（底下紅字是INFO log訊息不用管他）
 ```
 "ppt-extractor": {
       "command": "python",
@@ -60,6 +60,7 @@ pip install -e .
 
 
 ## 專案結構
+```
 ppt-extractor-mcp/
 ├── src/
 │   ├── __init__.py
@@ -73,6 +74,7 @@ ppt-extractor-mcp/
 ├── requirements.txt
 ├── setup.py
 └── uv.lock
+```
 
 ## 授權條款
 
